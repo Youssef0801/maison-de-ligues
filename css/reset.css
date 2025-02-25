@@ -1,0 +1,20 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F4F4F4;
+    color: #333;
+}
+
+h1, h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #D81B60;
+}
+
+button {
+    font-family: 'Arial', sans-serif;
+    background-color: #D81B60;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
