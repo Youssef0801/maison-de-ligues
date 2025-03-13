@@ -47,12 +47,20 @@ nav ul li a:hover {
 
 /* Section de connexion */
 main {
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 h1 {
-    font-size: 36px;
+    font-size: 46px;
     font-weight: bold;
+}
+hr {
+    border: none;
+    height: .1px; /* Définit l'épaisseur de la ligne */
+    background-color: black; /* Définit la couleur de la ligne */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 80%; /* Définit la largeur de la ligne */
 }
 
 h2 {
