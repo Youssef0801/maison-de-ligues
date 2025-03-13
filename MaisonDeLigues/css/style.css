@@ -12,8 +12,8 @@ body {
 
 /* Barre de navigation */
 header {
-    background: linear-gradient(to right, #ff5f6d, #ff9966);
-    padding: 10px 0;
+    background: linear-gradient(to right, #c74651, #d93d29);
+    padding: 15px 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -30,12 +30,14 @@ nav ul {
 nav ul li {
     display: inline;
 }
-
+.intranet-logo{
+    width: 100px;
+    font-weight: bold;
+}
 nav ul li a {
     color: white;
     text-decoration: none;
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 20px;
     padding: 10px;
 }
 
@@ -85,7 +87,7 @@ input {
 
 button {
     width: 100%;
-    background: linear-gradient(to right, #ff5f6d, #ff9966);
+    background: linear-gradient(to right, #e24b58, #d93d29);
     color: white;
     border: none;
     padding: 10px;
@@ -102,7 +104,7 @@ button:hover {
 /* Pied de page */
 footer {
     margin-top: 50px;
-    padding: 20px;
+    padding: 10px;
     background-color: #222;
     color: white;
 }
