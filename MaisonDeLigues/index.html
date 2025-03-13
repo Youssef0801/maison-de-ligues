@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intranet - Maison des Ligues</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html"><span class="align-v" aria-hidden="true">📁 </span>Intranet</a></li>
+                <li><a href="login.html">Connexion</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1>Connexion</h1>
+            <h2>Pour vous connecter à l'intranet, entrez votre identifiant et mot de passe.</h2>
+        </section>
+        <section>
+            <fieldset>
+                <form action="login.php" method="post">
+
+                    <label for="Email">Email :</label>
+                    <input type="email" name="Email" id="Email" aria-required="true" placeholder="ex: owen.lopez@example.com">
+
+                    <label for="password">Mot de passe</label>
+                    <input type="password" name="password" id="password" required>
+
+                    <button type="submit">Connexion</button>
+            </fieldset>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Maison des Ligues - Tous droits réservés</p>
+    </footer>
+</body>
+</html>
