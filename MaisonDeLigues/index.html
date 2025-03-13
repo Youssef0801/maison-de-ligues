@@ -15,7 +15,7 @@
         <nav>
             <ul>
                 <li><a class="intranet-logo" href="index.html"><span class="align-v" aria-hidden="true">📁 </span>Intranet</a></li>
-                <li><a href="login.html">Connexion</a></li>
+                <li><a href="login.html"><img src="/MaisonDeLigues/asset/connexion-btn.png" alt="boutton de connexion"> Connexion</a></li>
             </ul>
         </nav>
     </header>
@@ -24,17 +24,17 @@
         <section>
             <h1>Connexion</h1>
             <hr>
-            <h2>Pour vous connecter à l'intranet, entrez votre identifiant et mot de passe.</h2>
+            <p>Pour vous connecter à l'intranet, entrez votre identifiant et mot de passe.</p>
         </section>
         <section>
             <fieldset>
                 <form action="login.php" method="post">
 
                     <label for="Email">Email :</label>
-                    <input type="email" name="Email" id="Email" aria-required="true" placeholder="ex: owen.lopez@example.com">
+                    <input type="email" name="Email" id="Email" aria-required="true" placeholder="ex: owen.lopez@example.com" autofocus>
 
-                    <label for="password">Mot de passe</label>
-                    <input type="password" name="password" id="password" required>
+                    <label for="password">Mot de passe :</label>
+                    <input type="password" name="password" id="password" required autofocus>
 
                     <button type="submit">Connexion</button>
             </fieldset>

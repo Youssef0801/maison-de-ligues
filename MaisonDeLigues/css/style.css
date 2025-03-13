@@ -11,8 +11,8 @@ body {
 }
 
 /* Barre de navigation */
-header {
-    background: linear-gradient(to right, #c74651, #d93d29);
+header { 
+    background: linear-gradient(to right, #4173c9, #347cd3) ;
     padding: 15px 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -44,7 +44,15 @@ nav ul li a {
 nav ul li a:hover {
     text-decoration: none;
 }
-
+img{
+    
+    width: 30px;  /* Largeur de l'icône */
+    height: 30px; /* Hauteur de l'icône */
+    object-fit: cover; /* Ajuste l'image sans déformation */
+    border-radius: 50%; /* Pour un effet arrondi (facultatif) */
+    
+    
+}
 /* Section de connexion */
 main {
     margin-top: 40px;
@@ -56,11 +64,11 @@ h1 {
 }
 hr {
     border: none;
-    height: .1px; /* Définit l'épaisseur de la ligne */
-    background-color: black; /* Définit la couleur de la ligne */
+    height: .1px;
+    background-color: rgb(128, 125, 125);
     margin-top: 20px;
     margin-bottom: 20px;
-    width: 80%; /* Définit la largeur de la ligne */
+    width: 80%;
 }
 
 h2 {
@@ -80,22 +88,28 @@ fieldset {
 
 label {
     display: block;
-    margin: 10px 0 5px;
+    margin: 10px 5px 5px;
     text-align: left;
     font-weight: bold;
 }
 
 input {
     width: 100%;
-    padding: 10px;
+    padding: 8px;
+    padding-left: 2px;
+    padding-right: 5px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
+input:focus{
+    border: 1px solid #4e2d28;
+    outline: none;
+}
 
 button {
-    width: 100%;
-    background: linear-gradient(to right, #e24b58, #d93d29);
+    width: 70%;
+    background: linear-gradient(to right, #4662c7, #133f92);
     color: white;
     border: none;
     padding: 10px;
@@ -106,13 +120,14 @@ button {
 }
 
 button:hover {
-    background: linear-gradient(to right, #ff3b55, #ff774a);
+    background: linear-gradient(to right, #233abe, #2b4489);
+
 }
 
 /* Pied de page */
 footer {
-    margin-top: 50px;
-    padding: 10px;
+    margin-top: 10px;
+    padding: 8px;
     background-color: #222;
     color: white;
 }

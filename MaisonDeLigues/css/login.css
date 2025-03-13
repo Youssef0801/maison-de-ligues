@@ -1,0 +1,100 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* Section d'introduction */
+h1 {
+    font-size: 46px;
+    font-weight: bold;
+    
+}
+
+p {
+    font-size: 20px;
+    margin-top: 10px;
+    color: #555;
+}
+nav .right-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+/* Carte employé */
+.info-employe {
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 25px;
+    color: #333;
+}
+
+.employe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    max-width: 500px;
+    margin: 20px auto;
+    position: relative;
+}
+small{
+    font-size: 15px;
+    color: #555;
+}
+
+
+.employe ul {
+    list-style: none;
+    padding: 0;
+    padding-left: 100px;
+    text-align: left;
+}
+
+.employe li {
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.employe li:first-child {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Badge technique */
+h3 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #00a7de;
+    color: white;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+button {
+    width: 70%;
+    background: linear-gradient(to right, #4662c7, #133f92);
+    color: white;
+    border: none;
+    width: 350px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: linear-gradient(to right, #233abe, #2b4489);
+}
+
+/* Pied de page */
+footer {
+    margin-top: 10px;
+    padding: 2px;
+    background-color: #222;
+    color: white;
+}
