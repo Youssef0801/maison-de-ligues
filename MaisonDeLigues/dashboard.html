@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liste des Collaborateurs</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="stylesheet" href="/MaisonDeLigues/css/dashboard.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a class="intranet-logo" href="index.html"><span class="align-v" aria-hidden="true">📁 </span>Intranet</a></li>
+
+                <nav class="right-section">
+                <li class="list"><a href="list.html"><img src="/MaisonDeLigues/asset/hamburger.png" alt=""> Liste</a></li>
+                <li><a href="profile.html"><img src="/MaisonDeLigues/asset/collab-3.jpg" alt=" Photo de Owen Lopez, 26 ans, à Saint-Pierre, France"></a></li>
+
+                <li><a href="index.html"><img src="/MaisonDeLigues/asset/connexion-btn.png" alt="boutton de connexion">Déconnexion</a></li>
+                </nav>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Liste des collaborateurs</h1>
+        <div class="filters">
+            
+            <input type="text" placeholder="Rechercher ...">
+            <label>Rechercher par :
+                <select>
+                    <option>Nom</option>
+                    <option>Ville</option>
+                    <option>Catégorie</option>
+                </select>
+            </label>
+            <label>Catégorie :
+                <select>
+                    <option>- Aucun -</option>
+                    <option>Marketing</option>
+                    <option>Technique</option>
+                </select>
+            </label>
+        </div>
+
+        <section class="collaborateurs">
+            <div class="collaborateur">
+                <img src="owen.jpg" alt="Owen Lopez">
+                <div class="info">
+                    <h3>Owen Lopez <span class="age">(29 ans)</span></h3>
+                    <p>Villeurbanne, France</p>
+                    <p>📧 <a href="mailto:owen.lopez@example.com">owen.lopez@example.com</a></p>
+                    <p>📞 02-37-79-78-39</p>
+                    <p>🎂 Anniversaire : 26 décembre</p>
+                    <span class="badge marketing">Marketing</span>
+                </div>
+            </div>
+            <!-- Ajouter d'autres collaborateurs ici -->
+        </section>
+    </main>
+</body>
+</html>

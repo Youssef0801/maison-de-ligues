@@ -44,7 +44,11 @@ small{
     font-size: 15px;
     color: #555;
 }
-
+.info-employe img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
 
 .employe ul {
     list-style: none;
@@ -74,7 +78,7 @@ h3 {
     font-size: 12px;
 }
 
-button {
+.info-employe a {
     width: 70%;
     background: linear-gradient(to right, #4662c7, #133f92);
     color: white;
@@ -87,7 +91,7 @@ button {
     cursor: pointer;
 }
 
-button:hover {
+.info-employe a:hover {
     background: linear-gradient(to right, #233abe, #2b4489);
 }
 
