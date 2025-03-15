@@ -1,5 +1,9 @@
 @import url(style.css);
 
+h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
 .filters{
     display: flex;
     justify-content: space-between;
@@ -17,4 +21,12 @@ label{
     font-size: 18px;
     font-weight: bold;
 
+}
+hr {
+    border: none;
+    height: .1px;
+    background-color: rgb(128, 125, 125);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 80%;
 }
