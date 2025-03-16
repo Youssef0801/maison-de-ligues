@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liste des Collaborateurs</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="stylesheet" href="/MaisonDeLigues/css/dashboard.css">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a class="intranet-logo" href="index.html"><span class="align-v" aria-hidden="true">📁 </span>Intranet</a></li>
+
+                <nav class="right-section">
+                <li class="list"><a href="list.html"><img src="/asset/hamburger.png" alt=""> Liste</a></li>
+                <li><a href="profile.html"><img src="/asset/collab-3.jpg" alt=" Photo de Owen Lopez, 26 ans, à Saint-Pierre, France"></a></li>
+
+                <li><a href="index.html"><img src="/asset/connexion-btn.png" alt="boutton de connexion">Déconnexion</a></li>
+                </nav>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="search">
+            <h1>LISTE DES COLLABORATEURS</h1>
+            <hr>
+        <aside>
+            <form action="" method="post">
+            <fieldset>
+                <label for="search">Rechercher:</label>
+                <input type="text" placeholder="RECHERCHER">
+                <label for="nom">Rechercher par:</label><br>
+                <select id="nom" name="nom">
+                <option value="nom">Nom</option>
+                <option value="prenom">Prénom</option>
+                </select>
+                <label for="categorie">Catégorie</label><br>
+                <select id="categorie" name="categorie">
+                <option value="informatique">Informatique</option>
+                <option value="technique">Technique</option>
+                <option value="mathematique">Mathematique</option>
+            </fieldset>
+            </form>
+        </aside>
+    </section>
+    <section class="collaborators">
+        <div class="collaborator-card">
+            <img src="/asset/collab-1.jpg" alt="Photo de Owen Lopez">
+            <div class="info">
+                <h3>Owen Lopez <span>(29 ans)</span></h3>
+                <p>Villeurbanne, France</p>
+                <a href="mailto:owen.lopez@example.com">owen.lopez@example.com</a>
+                <p>📞 02-37-79-78-39</p>
+                <p>🎂 Anniversaire : 26 décembre</p>
+                <span class="tag marketing">Marketing</span>
+            </div>
+        </div>
+    
+        <div class="collaborator-card">
+            <img src="/asset/collab-2.jpg" alt="Photo de Maïwenn Louis">
+            <div class="info">
+                <h3>Maïwenn Louis <span>(36 ans)</span></h3>
+                <p>Toulon, France</p>
+                <a href="mailto:maiwenn.louis@example.com">maiwenn.louis@example.com</a>
+                <p>📞 01-04-22-90-78</p>
+                <p>🎂 Anniversaire : 10 février</p>
+                <span class="tag marketing">Marketing</span>
+            </div>
+        </div>
+    
+        <div class="collaborator-card">
+            <img src="/asset/collab-3.jpg" alt="Photo de Mathis Rolland">
+            <div class="info">
+                <h3>Mathis Rolland <span>(39 ans)</span></h3>
+                <p>Villeurbanne, France</p>
+                <a href="mailto:mathis.rolland@example.com">mathis.rolland@example.com</a>
+                <p>📞 03-15-28-33-79</p>
+                <p>🎂 Anniversaire : 11 novembre</p>
+                <span class="tag technique">Technique</span>
+            </div>
+        </div>
+    
+        <div class="collaborator-card">
+            <img src="/asset/collab-4.jpg" alt="Photo de Cassandre Roy">
+            <div class="info">
+                <h3>Cassandre Roy <span>(30 ans)</span></h3>
+                <p>Colombes, France</p>
+                <a href="mailto:cassandre.roy@example.com">cassandre.roy@example.com</a>
+                <p>📞 02-64-83-52-15</p>
+                <p>🎂 Anniversaire : 14 avril</p>
+                <span class="tag technique">Technique</span>
+            </div>
+        </div>
+    </section>
+    
+    </main>
+    <footer>
+        <p>&copy; 2025 Maison des Ligues - Tous droits réservés</p>
+    </footer>
+</body>
+</html>
