@@ -63,11 +63,13 @@
 /* Badge technique */
 h2 {
     position: absolute;
-    top: 0;
-    right: 0;
+    top:calc(39% - 30px);
+    right:auto;
+    margin: 5px;
     background: #00a7de;
     color: white;
     padding: 5px 10px;
+    border-radius: 5px;
     font-size: 12px;
 }
 .collaborators {

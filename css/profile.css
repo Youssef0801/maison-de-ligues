@@ -36,7 +36,8 @@
     padding: 10px;
     width: 300px;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 18px;
+    background-color: #f9f9f9;
 }
 
 .btn-modifier {
@@ -60,12 +61,12 @@
     flex-direction: row;      /* Aligne label et champ sur une même ligne */
     align-items:center;      /* Centre verticalement label et input */
     justify-content: flex-start;
-    gap: 30px;
+    gap: 20px;
 }
 
 /* Retrait de la marge du label et définition d’une largeur fixe ou mini */
 .form-group label {
     margin-bottom: 0;         /* Retire la marge en bas (sinon ça décale) */
     min-width: 120px;         /* Largeur minimale pour aligner proprement */
-    text-align: left;        /* Aligne le texte à droite */
+    text-align: left;        /* Aligne le texte à gauche */
 }

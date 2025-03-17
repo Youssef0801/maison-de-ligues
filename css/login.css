@@ -84,5 +84,11 @@ h3 {
 
 .info-employe a:hover {
     background: linear-gradient(to right, #233abe, #2b4489);
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
-
+/* Effet de « hover » (survol) pour donner du relief à la carte */
+.employe:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
