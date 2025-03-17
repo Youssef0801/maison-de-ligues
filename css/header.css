@@ -1,5 +1,16 @@
 @import url(reset.css);
-
+h1 {
+    font-size: 46px;
+    font-weight: bold;
+}
+hr {
+    border: none;
+    height: .1px;
+    background-color: rgb(128, 125, 125);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 80%;
+}
 header { 
     background: linear-gradient(to right, #4173c9, #347cd3) ;
     padding: 15px 0;
@@ -48,4 +59,11 @@ img{
     border-radius: 50%;
     
     
+}
+/* Pied de page */
+footer {
+    margin-top: 10px;
+    padding: 8px;
+    background-color: #222;
+    color: white;
 }

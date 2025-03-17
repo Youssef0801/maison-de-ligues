@@ -2,12 +2,6 @@
 @import url(header.css);
 
 
-h1 {
-    font-size: 46px;
-    font-weight: bold;
-    
-}
-
 p {
     font-size: 20px;
     margin-top: 10px;
@@ -92,10 +86,3 @@ h3 {
     background: linear-gradient(to right, #233abe, #2b4489);
 }
 
-/* Pied de page */
-footer {
-    margin-top: 10px;
-    padding: 2px;
-    background-color: #222;
-    color: white;
-}
