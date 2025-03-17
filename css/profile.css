@@ -2,42 +2,44 @@
 @import url(header.css);
 
 .main-container {
-    max-width: 600px;
-    margin: 40px auto;
+    max-width: 1200px;
+    margin: 10px auto;
     padding: 20px;
-  }
-  
-  .main-container h2 {
+}
+
+.main-container h2 {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     color: #333;
-  }
-  
-  /* FORMULAIRE */
-  .profile-form {
+}
+
+/* FORMULAIRE */
+.profile-form {
     display: flex;
     flex-direction: column;
     gap: 20px;
-  }
-  
-  .form-group {
+}
+
+.form-group {
     display: flex;
     flex-direction: column;
-  }
-  
-  .form-group label {
+}
+
+.form-group label {
     font-weight: bold;
     margin-bottom: 5px;
-  }
-  
-  .form-group input,
-  .form-group select {
-    padding: 8px;
+    
+}
+
+.form-group input,
+.form-group select {
+    padding: 10px;
+    width: 300px;
     border: 1px solid #ccc;
     border-radius: 4px;
-  }
-  
-  .btn-modifier {
+}
+
+.btn-modifier {
     background-color: #ff5a7c;
     color: #fff;
     font-weight: bold;
@@ -47,8 +49,23 @@
     cursor: pointer;
     text-transform: uppercase;
     width: 100%;
-  }
-  
-  .btn-modifier:hover {
+}
+
+.btn-modifier:hover {
     opacity: 0.8;
-  }
+}
+
+
+.form-group {
+    flex-direction: row;      /* Aligne label et champ sur une même ligne */
+    align-items:center;      /* Centre verticalement label et input */
+    justify-content: flex-start;
+    gap: 30px;
+}
+
+/* Retrait de la marge du label et définition d’une largeur fixe ou mini */
+.form-group label {
+    margin-bottom: 0;         /* Retire la marge en bas (sinon ça décale) */
+    min-width: 120px;         /* Largeur minimale pour aligner proprement */
+    text-align: left;        /* Aligne le texte à droite */
+}
