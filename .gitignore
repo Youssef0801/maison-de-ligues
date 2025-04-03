@@ -1,1 +1,14 @@
-Commande ECHO activée.
+
+# Fichiers de dépendances PHP
+vendor/
+
+# Fichiers temporaires systèmes
+.DS_Store
+Thumbs.db
+
+# Logs, caches
+logs/
+cache/
+
+# Fichiers de configuration sensibles
+.env
