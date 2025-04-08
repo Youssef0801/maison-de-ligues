@@ -1,0 +1,3 @@
+<?php
+// Logique métier future
+?>
