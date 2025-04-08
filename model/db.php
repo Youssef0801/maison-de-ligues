@@ -1,6 +1,6 @@
 <?php
 $host = 'localhost';
-$dbname = 'maison_ligues';
+$dbname = 'm2l';
 $user = 'root';
 $pass = '';
 
