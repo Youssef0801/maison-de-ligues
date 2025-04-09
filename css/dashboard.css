@@ -61,10 +61,13 @@
 
 /* STYLE CARTES COLLABORATEURS */
 /* Badge technique */
-h2 {
+.collaborator-card {
+    position: relative;
+}
+.collaborator-card h2 {
     position: absolute;
-    top:calc(39% - 30px);
-    right:auto;
+    top: 0;
+    right:0;
     margin: 5px;
     background: #00a7de;
     color: white;
@@ -93,10 +96,10 @@ h2 {
 }
 
 /* Effet de « hover » (survol) pour donner du relief à la carte */
-.collaborator-card:hover {
+/* .collaborator-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
+} */
 
 /* Image du collaborateur */
 .collaborator-card img {
